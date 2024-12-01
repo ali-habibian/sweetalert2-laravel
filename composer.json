@@ -1,6 +1,7 @@
 {
     "name": "ali-habibian/sweetalert2-laravel",
     "description": "This package provides an easy-to-use integration for SweetAlert2 notifications in Laravel applications.",
+    "version": "2.0.1",
     "type": "package",
     "require": {
         "illuminate/support": "^11.34",

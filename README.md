@@ -5,7 +5,7 @@
 1. **Install the package**:
    In your Laravel app, run:
     ```
-    composer require your-vendor/swalalert
+    composer require ali-habibian/sweetalert2-laravel
     ```
 
 2. **Publish assets**:
@@ -40,11 +40,11 @@
 6. **Usage**:
    In your controller, you can now easily flash an alert:
     ```php
-    use YourVendor\SwalAlert\SwalLaAlert;
+    use AliHabibian\Sweetalert2Laravel\SwalLaAlert;
 
     public function store()
     {
-        SwalLaAlert::flash('success', 'Brand added successfully!');
+        SwalLaAlert::flash('success', 'Product added successfully!');
         return redirect()->route('home');
     }
     ```
