@@ -1,0 +1,25 @@
+# Ignore vendor directory (if it exists in the package's root directory)
+/vendor/
+
+# Ignore IDE-specific files (e.g., PhpStorm, VSCode)
+.idea/
+.vscode/
+
+# Ignore .env files if any are used in your package (typically you should not commit this)
+.env
+
+# Ignore compiled views (if generated) and storage directories
+storage/
+public/storage/
+
+# Ignore any build artifacts or temporary files (if relevant)
+*.log
+*.bak
+*.swp
+*.swo
+
+# Ignore composer.lock if you don't want to commit it (typically, you can keep this for version consistency)
+composer.lock
+
+# Ignore package's own composer.phar file (if it's present)
+composer.phar
