@@ -1,9 +1,17 @@
 {
     "name": "ali-habibian/sweetalert2-laravel",
-    "description": "This package provides an easy-to-use integration for SweetAlert2 notifications in Laravel applications. It allows you to trigger dynamic alerts with customizable messages, icons, and button texts, supporting all alert types (success, error, warning, info, question). The package is fully configurable, making it highly flexible for a wide range of use cases.",
+    "description": "This package provides an easy-to-use integration for SweetAlert2 notifications in Laravel applications.",
     "type": "package",
     "require": {
-        "illuminate/support": "^11.34"
+        "illuminate/support": "^11.34",
+        "sweetalert2/sweetalert2": "^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AliHabibian\\Sweetalert2Laravel\\SwalLaAlertServiceProvider"
+            ]
+        }
     },
     "license": "MIT",
     "autoload": {
